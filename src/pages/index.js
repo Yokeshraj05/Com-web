@@ -1,9 +1,14 @@
 import React from 'react'
-import Header from '../component/header'
+import HomePage from '../component/header'
+import AboutUs from '../component/header/AboutUs'
+
 
 function Dashboard() {
   return (
-    <div><Header /></div>
+    <div>
+      <HomePage />
+      <AboutUs />
+    </div>
   )
 }
 
