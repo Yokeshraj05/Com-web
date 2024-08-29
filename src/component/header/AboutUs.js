@@ -4,14 +4,17 @@ import About from './assets/about1.jpeg'
 const AboutUs = () => {
   return (
     <section className="bg-white py-16">
-      <div className="container mx-auto flex flex-row items-center px-6 md:px-12 lg:px-24">
+      <div className="container mx-auto flex flex-col md:flex-row items-center px-6 md:px-12 lg:px-24">
+        
         {/* Left Section with Background Image */}
-        <img src={About} alt='' className='h-96 w-2/4 pr-10'/>
+        <div className="w-full md:w-1/2 mb-8 md:mb-0">
+          <img src={About} alt='' className='h-64 w-full md:h-96 md:w-auto object-cover pr-16' />
+        </div>
 
         {/* Right Content Section */}
         <div className="w-full md:w-1/2">
           <h3 className="text-blue-600 font-semibold text-lg mb-2">About Us</h3>
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
             About CogniGenNxt Agency And Its Innovative IT Solutions
           </h2>
           <p className="text-gray-600 mb-4">

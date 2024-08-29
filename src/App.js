@@ -1,6 +1,8 @@
-import logo from './logo.svg';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import './App.css';
 import Dashboard from './pages';
+
+
 
 function App() {
   return (
