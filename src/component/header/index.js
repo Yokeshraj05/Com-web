@@ -1,31 +1,14 @@
-import React from 'react';
-import Wide from './assets/wide2.jpg'
-import '@fortawesome/fontawesome-free/css/all.min.css';
+ import React from 'react';
+ import Wide from './assets/wide2.jpg';
+ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const HomePage = () => {
+ 
+
   return (
     <div className="min-h-screen bg-gray-900 text-white">
-     
-      {/* Header */}
-      <header className="bg-blue-700 p-5">
-        <div className="flex justify-between items-center flex-wrap">
-          <h1 className="text-2xl md:text-3xl font-bold text-purple-200">
-            Cogni<span className="text-black">GenNxt</span>
-          </h1>
-
-          <nav className="mt-4 md:mt-0">
-            <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-lg">
-              <li>Home</li>
-              <li>About</li>
-              <li>Services</li>
-              <li>Projects</li>
-              <li>Pages</li>
-              <li>Contact</li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-
+      
+      
       {/* Hero Section */}
       <section
         className="relative bg-cover bg-center"
@@ -56,4 +39,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+ export default HomePage;
